@@ -1,0 +1,83 @@
+// Place all the styles related to the murmurs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+header {
+  width: 100%;
+  background-color: #66BAB7;
+  height: 54px;
+}
+
+header ul {
+  margin: 0 auto;
+  list-style: none;
+}
+
+header .a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: orange;
+}
+
+header li {
+  float: left;
+  width: auto;
+}
+
+header ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer {
+  width: 100%;
+  background-color: #66BAB7;
+  padding: 20px 0 10px 0;
+  color: white;
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+.main-header {
+  padding: 20%;
+  width:100%;
+  background-size: cover;
+  background-image: url("main-header.jpg");
+  background-attachment: fixed;
+}
+
+.main-header img {
+  display: block;
+  margin: 0　auto;
+  width: 25%;
+  padding-top: 15%;
+}
+
+.list, .new, .about {
+  padding: 10%;
+}
+
+.table {
+  text-align: center;
+}
+
+h4, h5 {
+  color: #64363C
+}
+
+h6 {
+  line-height: 25px;
+}
