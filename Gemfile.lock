@@ -193,7 +193,6 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap (>= 1.1.0)
-  bundler (~> 1.17.0.pre.1)
   byebug
   capybara (>= 2.15)
   chromedriver-helper
